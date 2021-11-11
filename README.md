@@ -1,2 +1,7 @@
-# Synx_Projekt2
-Synx_Projekt2
+# Linkek, források, infomárciók
+
+---
+
+Figma (tervrajz) link:
+
+---
