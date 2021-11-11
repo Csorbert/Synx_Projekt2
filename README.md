@@ -2,6 +2,4 @@
 
 ---
 
-Figma (tervrajz) link:
-
 ---
