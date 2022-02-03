@@ -1,4 +1,5 @@
-var lang = true;
+var lang = false;
+
 function Translation() {
     if (lang) {
         document.getElementById("h1").innerHTML = "L-Trans";
@@ -105,11 +106,10 @@ function Translation() {
         document.getElementById("p13").innerHTML = "73900 Ft/fő";
         document.getElementById("p14").innerHTML = "3 napos pihenés a Hotel Fürdőben<br>3 nap/2 éjszaka szállás 2 fő részére kétágyas szobában, utazás egyénileg.";
         document.getElementById("p15").innerHTML = "59900 Ft/fő";
-        document.getElementById("p16").innerHTML = "Sources";
 
         lang = false;
     } else {
-        ocument.getElementById("h1").innerHTML = "L-Trans";
+        document.getElementById("h1").innerHTML = "L-Trans";
         document.getElementById("h2-1").innerHTML = "Inland tours";
         document.getElementById("h2-2").innerHTML = "Abroad tours";
         document.getElementById("h2-3").innerHTML = "France";
@@ -217,3 +217,4 @@ function Translation() {
         lang = true;
     }
 }
+
