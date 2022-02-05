@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>L-Trans</title>
 </head>
 
@@ -13,62 +14,80 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <!--logo kép-->
+                    <!--logo kép-->logo
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="aios-main.html">Főoldal</a>
-                        <a class="nav-link" href="aios-inland.html">Belföldi utak</a>
-                        <a class="nav-link" href="aios-abroad.html">Külföldi utak</a>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="aios-main.html">Főoldal</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="aios-inland.html">Belföldi utak</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="aios-abroad.html">Külföldi utak</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </nav>
 
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="item active">
+                <div class="carousel-item active">
+                    <img src="" class="d-block" alt=" ">
                     <!--image 1-->
                 </div>
 
-                <div class="item">
+                <div class="carousel-item">
+                    <img src="" class="d-block" alt=" ">
                     <!--image 2-->
                 </div>
 
-                <div class="item">
+                <div class="carousel-item">
+                    <img src="" class="d-block" alt=" ">
                     <!--image 3-->
                 </div>
-                <div class="item">
+                <div class="carousel-item">
+                    <img src="" class="d-block" alt=" ">
                     <!--image 4-->
                 </div>
             </div>
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <!-- <span class="sr-only">Previous</span> -->
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <!-- <span class="sr-only">Next</span> -->
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
             </a>
         </div>
     </header>
     <main>
-        <button onclick="Translation()" type="button" class="btn btn-outline-dark"><img src="Translation.png" alt="Translation"></button>
+        <button onclick="Translation()" type="button" class="btn btn-outline-dark"><img src="Translation.png"
+                alt="Translation"></button>
         <section>
             <h1 id="h1">
                 <!--Az oldal fő címe-->
             </h1>
             <p id="p1">
+                Mi vagyunk az L-Trans, egy utazási iroda, amely már 22 év óta szolgálja ki az utazni vágyók
+                igényeit. Utazóink általában elégedettek az általunk kívánt úticélok széles palettájával, megbízható
+                utazásszervezésünkkel és vevőbarát hozzáállásunkkal. Budapesten négy irodánk van, ahol szeretettel
+                várjuk az érdeklődőket. Cégünk következő célja a korszerűsítés, hogy vevőink igényeit egy modernizált
+                környezetben tudjuk kielégíteni.
                 <!--Bemutatkozószöveg (még nincs, szóval kell csinálni!)-->
             </p>
             <h2 id="h2-1">
@@ -99,313 +118,6 @@
                     <!--Külföldi út-->
                 </li>
             </ul>
-        </section>
-        <section>
-            <!--Franciaország-->
-            <article>
-                <h2 id="h2-3">
-                    <!--Ország-->
-                </h2>
-                <p id="p2">
-                    <!--Alap infók-->
-                </p>
-                <h3 id="h3-1">
-                    <!--Időpontok-->
-                </h3>
-                <ul>
-                    <li id="li7">
-                        <!--Időpont-->
-                    </li>
-                    <li id="li8">
-                        <!--Időpont-->
-                    </li>
-                    <li id="li9">
-                        <!--Időpont-->
-                    </li>
-                </ul>
-                <h3 id="h3-2">
-                    <!--A részvételi díj...-->
-                </h3>
-                <ul>
-                    <li id="li10">
-                        <!--Tartlamazza-->
-                    </li>
-                    <li id="li11">
-                        <!--Tartalmazza-->
-                    </li>
-                    <li id="li12">
-                        <!--Tartalmazza-->
-                    </li>
-                    <li id="li13">
-                        <!--Tartalmazza-->
-                    </li>
-                </ul>
-                <h3 id="h3-3">
-                    <!--Úti cél bemutatása-->
-                </h3>
-                <p id="p3">
-                    <!--Úti cél bemutatása szöveg-->
-                </p>
-                <h3 id="h3-4">
-                    <!--Látnivalók-->
-                </h3>
-                <p id="p4">
-                    <!--Látnivalók szöveg-->
-                </p>
-                <h3 id="h3-5">
-                    <!--Ár-->
-                </h3>
-                <p id="p5">
-                    <!--Az ára-->
-                </p>
-            </article>
-
-            <!--Svájc-->
-            <article>
-                <h2 id="h2-4">
-                    <!--Ország-->
-                </h2>
-                <p id="p6">
-                    <!--Alap infók-->
-                </p>
-                <h3 id="h3-6">
-                    <!--Időpontok-->
-                </h3>
-                <ul>
-                    <li id="li14">
-                        <!--Időpont-->
-                    </li>
-                    <li id="li15">
-                        <!--Időpont-->
-                    </li>
-                    <li id="li16">
-                        <!--Időpont-->
-                    </li>
-                </ul>
-                <h3 id="h3-7">
-                    <!--A részvételi díj...-->
-                </h3>
-                <ul>
-                    <li id="li17">
-                        <!--Tartlamazza-->
-                    </li>
-                    <li id="li18">
-                        <!--Tartalmazza-->
-                    </li>
-                    <li id="li19">
-                        <!--Tartalmazza-->
-                    </li>
-                    <li id="li20">
-                        <!--Tartalmazza-->
-                    </li>
-                    <li id="li21">
-                        <!--Tartalmazza-->
-                    </li>
-                    <li id="li22">
-                        <!--Tartalmazza-->
-                    </li>
-                </ul>
-                <h3 id="h3-8">
-                    <!--Ár-->
-                </h3>
-                <p id="p7">
-                    <!--Az ára-->
-                </p>
-            </article>
-
-            <!--Görögország-->
-            <article>
-                <h2 id="h2-5">
-                    <!--Ország-->
-                </h2>
-                <p id="p8">
-                    <!--Alap infók-->
-                </p>
-                <h3 id="h3-9">
-                    <!--Időpontok-->
-                </h3>
-                <ul>
-                    <li id="li23">
-                        <!--Időpont-->
-                    </li>
-                    <li id="li24">
-                        <!--Időpont-->
-                    </li>
-                    <li id="li25">
-                        <!--Időpont-->
-                    </li>
-                </ul>
-                <h3 id="h3-10">
-                    <!--A részvételi díj...-->
-                </h3>
-                <ul>
-                    <li id="li26">
-                        <!--Tartlamazza-->
-                    </li>
-                    <li id="li27">
-                        <!--Tartalmazza-->
-                    </li>
-                    <li id="li28">
-                        <!--Tartalmazza-->
-                    </li>
-                    <li id="li29">
-                        <!--Tartalmazza-->
-                    </li>
-                    <li id="li30">
-                        <!--Tartalmazza-->
-                    </li>
-                    <li id="li31">
-                        <!--Tartalmazza-->
-                    </li>
-                    <li id="li32">
-                        <!--Tartalmazza-->
-                    </li>
-                </ul>
-                <h3 id="h3-11">
-                    <!--Ár-->
-                </h3>
-                <p id="p9">
-                    <!--Az ára-->
-                </p>
-            </article>
-
-            <!--Japán-->
-            <article>
-                <h2 id="h2-6">
-                    <!--Ország-->
-                </h2>
-                <p id="p10">
-                    <!--Alap infók-->
-                </p>
-                <h3 id="h3-12">
-                    <!--Időpontok-->
-                </h3>
-                <ul>
-                    <li id="li33">
-                        <!--Időpont-->
-                    </li>
-                    <li id="li34">
-                        <!--Időpont-->
-                    </li>
-                </ul>
-                <h3 id="h3-13">
-                    <!--A részvételi díj...-->
-                </h3>
-                <ul>
-                    <li id="li35">
-                        <!--Tartlamazza-->
-                    </li>
-                    <li id="li36">
-                        <!--Tartalmazza-->
-                    </li>
-                    <li id="li37">
-                        <!--Tartalmazza-->
-                    </li>
-                </ul>
-                <h3 id="h3-14">
-                    <!--Ár-->
-                </h3>
-                <p id="p11">
-                    <!--Az ára-->
-                </p>
-            </article>
-
-            <!--Debrecen-->
-            <article>
-                <h2 id="h2-7">
-                    <!--Város-->
-                </h2>
-                <p id="p12">
-                    <!--Alap infók-->
-                </p>
-                <h3 id="h3-15">
-                    <!--Időpontok-->
-                </h3>
-                <ul>
-                    <li id="li38">
-                        <!--Időpont-->
-                    </li>
-                    <li id="li39">
-                        <!--Időpont-->
-                    </li>
-                    <li id="li40">
-                        <!--Időpont-->
-                    </li>
-                </ul>
-                <h3 id="h3-16">
-                    <!--A részvételi díj...-->
-                </h3>
-                <ul>
-                    <li id="li41">
-                        <!--Tartlamazza-->
-                    </li>
-                    <li id="li42">
-                        <!--Tartalmazza-->
-                    </li>
-                    <li id="li43">
-                        <!--Tartalmazza-->
-                    </li>
-                    <li id="li44">
-                        <!--Tartalmazza-->
-                    </li>
-                    <li id="li45">
-                        <!--Tartalmazza-->
-                    </li>
-                </ul>
-                <h3 id="h3-17">
-                    <!--Ár-->
-                </h3>
-                <p id="p13">
-                    <!--Az ára-->
-                </p>
-            </article>
-
-            <!--Nyíregyháza-->
-            <article>
-                <h2 id="h2-8">
-                    <!--Város-->
-                </h2>
-                <p id="p14">
-                    <!--Alap infók-->
-                </p>
-                <h3 id="h3-18">
-                    <!--Időpontok-->
-                </h3>
-                <ul>
-                    <li id="li46">
-                        <!--Időpont-->
-                    </li>
-                    <li id="li47">
-                        <!--Időpont-->
-                    </li>
-                    <li id="li48">
-                        <!--Időpont-->
-                    </li>
-                </ul>
-                <h3 id="h3-19">
-                    <!--A részvételi díj...-->
-                </h3>
-                <ul>
-                    <li id="li49">
-                        <!--Tartlamazza-->
-                    </li>
-                    <li id="li50">
-                        <!--Tartalmazza-->
-                    </li>
-                    <li id="li51">
-                        <!--Tartalmazza-->
-                    </li>
-                    <li id="li52">
-                        <!--Tartalmazza-->
-                    </li>
-                </ul>
-                <h3 id="h3-20">
-                    <!--Ár-->
-                </h3>
-                <p id="p15">
-                    <!--Az ára-->
-                </p>
-            </article>
         </section>
     </main>
     <footer>
@@ -438,10 +150,16 @@
             </li>
         </ul>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="aios.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
