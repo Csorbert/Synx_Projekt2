@@ -14,3 +14,7 @@ footer {
 .translate {
     width: 10%;
 }
+
+.carousel-inner {
+    max-height: 500px;
+}
