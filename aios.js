@@ -262,7 +262,7 @@ function Translation() {
                 document.getElementById("p5").innerHTML = "154000 HUF/person";
                 document.getElementById("p6").innerHTML = "Five-day journey with lifts.<br>5 days/4 nights, accomodation for 2 people in a double room, with continental breakfast, travel by bus.";
                 document.getElementById("p7").innerHTML = "215000 HUF/person";
-                document.getElementById("p8").innerHTML = "Greek island cruise.<br>5 day/4 night, travelling by airplane, accommodation for 2 people.";
+                document.getElementById("p8").innerHTML = "Greek island cruise<br>5 day/4 night, travelling by airplane, accommodation for 2 people";
                 document.getElementById("p9").innerHTML = "	350500 HUF/person";
                 document.getElementById("p10").innerHTML = "10-day roundtrip in traditional and modern Japan.<br>10 day/9 night accommodation for 2 people, double room with continental breakfast, return ticket.";
                 document.getElementById("p11").innerHTML = "1190000 HUF/person";

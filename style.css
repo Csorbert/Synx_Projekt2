@@ -3,6 +3,7 @@ footer {
     background-color: whitesmoke;
 }
 
+
 .logo {
     width: 10%;
 }
@@ -17,4 +18,51 @@ footer {
 
 .carousel-inner {
     max-height: 500px;
+}
+
+
+
+section{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main>section:nth-of-type(odd)>article>*{
+    text-align: left;
+}
+
+
+main>section:nth-of-type(even)>article>*{
+    text-align: right;
+    list-style-position: inside;
+}
+/* We tried using direction: rtl to make ul dots align to the left,
+but it made the text weird becuase Hungarian language is basically ltr orientated*/
+
+
+main>section{
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+div.carousel-item>img{
+    border-radius: 0px;
+}
+
+#kozep{
+    margin: auto;
+    background-color: white;
+}
+
+#kozep>article>img{
+    border-radius: 10px;
+}
+
+.kozep_szov{
+    text-align: center;
 }
